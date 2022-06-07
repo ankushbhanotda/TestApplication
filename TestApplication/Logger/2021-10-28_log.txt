@@ -1,0 +1,2 @@
+2021-10-28 02:13:58.3097 INFO List of BackstreetBoy:System.Collections.Generic.List`1[TestApplication.Models.BackstreetBoy]
+2021-10-28 02:21:46.0328 INFO List of BackstreetBoy:[{"Id":1,"Name":"string","Artist":"string","Time":"5:30","Popularity":"5","Price":"100"}]

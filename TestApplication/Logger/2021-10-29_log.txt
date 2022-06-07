@@ -1,0 +1,70 @@
+2021-10-29 01:42:46.1190 INFO List of Artist:[{"ArtistId":1,"Name":"Backstreet Boys"},{"ArtistId":2,"Name":"Test"}]
+2021-10-29 01:43:19.5960 INFO Artist request:{"ArtistId":0,"Name":"test"}
+2021-10-29 01:43:20.4607 ERROR Error:AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Artist
+System.Object -> TestApplication.Models.Artist
+   at lambda_method428(Closure , Object , Artist , ResolutionContext )
+   at TestApplication.Controllers.ArtistsController.AddArtist(ArtistVM viewmodel) in C:\Users\win-10\source\repos\TestApplication\TestApplication\Controllers\ArtistsController.cs:line 70
+2021-10-29 01:43:32.6024 INFO List of Artist:[{"ArtistId":1,"Name":"Backstreet Boys"},{"ArtistId":2,"Name":"Test"}]
+2021-10-29 01:44:04.1777 INFO Artist request:{"ArtistId":0,"Name":"new"}
+2021-10-29 01:44:04.4507 ERROR Error:AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Artist
+System.Object -> TestApplication.Models.Artist
+   at lambda_method428(Closure , Object , Artist , ResolutionContext )
+   at TestApplication.Controllers.ArtistsController.AddArtist(ArtistVM viewmodel) in C:\Users\win-10\source\repos\TestApplication\TestApplication\Controllers\ArtistsController.cs:line 70
+2021-10-29 01:44:17.2671 INFO List of Artist:[{"ArtistId":1,"Name":"Backstreet Boys"},{"ArtistId":2,"Name":"Test"}]
+2021-10-29 01:44:54.8952 INFO Artist request:{"ArtistId":3,"Name":"new"}
+2021-10-29 01:44:55.1212 ERROR Error:AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Artist
+System.Object -> TestApplication.Models.Artist
+   at lambda_method428(Closure , Object , Artist , ResolutionContext )
+   at TestApplication.Controllers.ArtistsController.AddArtist(ArtistVM viewmodel) in C:\Users\win-10\source\repos\TestApplication\TestApplication\Controllers\ArtistsController.cs:line 70
+2021-10-29 01:45:05.8019 INFO List of Artist:[{"ArtistId":1,"Name":"Backstreet Boys"},{"ArtistId":2,"Name":"Test"}]
+2021-10-29 01:46:03.5237 INFO Artist request:{"ArtistId":0,"Name":"new"}
+2021-10-29 01:46:03.9470 ERROR Error:AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Artist
+System.Object -> TestApplication.Models.Artist
+   at lambda_method428(Closure , Object , Artist , ResolutionContext )
+   at TestApplication.Controllers.ArtistsController.AddArtist(ArtistVM viewmodel) in C:\Users\win-10\source\repos\TestApplication\TestApplication\Controllers\ArtistsController.cs:line 70
+2021-10-29 01:46:35.8183 INFO Artist request:{"ArtistId":0,"Name":"new"}
+2021-10-29 01:53:16.9517 INFO Artist request:{"ArtistId":0,"Name":"string"}
+2021-10-29 01:56:52.3657 ERROR Error:AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Artist
+System.Object -> TestApplication.Models.Artist
+   at lambda_method376(Closure , Object , Artist , ResolutionContext )
+   at TestApplication.Controllers.ArtistsController.AddArtist(ArtistVM viewmodel) in C:\Users\win-10\source\repos\TestApplication\TestApplication\Controllers\ArtistsController.cs:line 70
+2021-10-29 01:57:33.1455 INFO BackstreetBoy request:{"GenreId":0,"Name":"test"}
+2021-10-29 01:57:33.4134 ERROR Error:AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Genre
+System.Object -> TestApplication.Models.Genre
+   at lambda_method382(Closure , Object , Genre , ResolutionContext )
+   at TestApplication.Controllers.GenresController.AddGenre(GenreVM viewmodel) in C:\Users\win-10\source\repos\TestApplication\TestApplication\Controllers\GenresController.cs:line 70
+2021-10-29 01:58:46.5124 INFO BackstreetBoy request:{"GenreId":0,"Name":"test"}
+2021-10-29 01:58:46.7857 ERROR Error:AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Genre
+System.Object -> TestApplication.Models.Genre
+   at lambda_method382(Closure , Object , Genre , ResolutionContext )
+   at TestApplication.Controllers.GenresController.AddGenre(GenreVM viewmodel) in C:\Users\win-10\source\repos\TestApplication\TestApplication\Controllers\GenresController.cs:line 70
+2021-10-29 01:58:58.7966 INFO BackstreetBoy request:{"GenreId":0,"Name":"test"}
+2021-10-29 02:06:52.9202 INFO Artist request:{"ArtistId":0,"Name":"string"}
+2021-10-29 03:49:51.8818 INFO List of Song:[{"SongId":0,"Name":"Nobody Else","Time":3.35,"Popularity":5,"Price":105.55,"GenreId":null,"ArtistId":"Backstreet Boys"},{"SongId":0,"Name":"Breathe","Time":5.55,"Popularity":3,"Price":155.55,"GenreId":null,"ArtistId":"Test"}]
+2021-10-29 23:32:40.3621 INFO Artist request:{"ArtistId":0,"Name":"Artist3"}
+2021-10-29 23:33:09.5861 INFO List of Artist:[{"ArtistId":1,"Name":"Backstreet Boys"}]
+2021-10-29 23:35:13.4540 INFO List of Artist:[{"ArtistId":1,"Name":"Backstreet Boys"}]
+2021-10-29 23:36:57.4758 INFO List of Artist:[{"ArtistId":1,"Name":"Backstreet Boys"}]
+2021-10-29 23:59:39.3907 INFO List of Artist:[{"ArtistId":1,"Name":"Backstreet Boys"},{"ArtistId":2,"Name":"Test"},{"ArtistId":3,"Name":"string"},{"ArtistId":4,"Name":"Artist3"}]
+2021-10-29 23:59:58.9274 INFO Artist request:3

@@ -1,0 +1,10 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace TestApplication.Models
+{
+    public class Artist
+    {
+        public int ArtistId { get; set; }
+        public string Name { get; set; }
+    }
+}

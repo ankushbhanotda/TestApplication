@@ -1,0 +1,54 @@
+2021-10-30 00:00:00.0742 INFO Artist response:{"ArtistId":3,"Name":"string"}
+2021-10-30 00:00:24.5026 INFO Artist request:{"ArtistId":0,"Name":"Artist6"}
+2021-10-30 00:00:57.2167 INFO Artist request:{"ArtistId":1,"Name":"Anilstring"}
+2021-10-30 00:08:50.3603 INFO Artist request:{"ArtistId":1,"Name":"Anilstring"}
+2021-10-30 00:08:52.0791 INFO Artist request:{"ArtistId":1,"Name":"Anilstring"}
+2021-10-30 00:12:53.5623 INFO Artist request:{"ArtistId":1,"Name":"Anilstring"}
+2021-10-30 00:21:16.4174 INFO Artist request:{"ArtistId":1,"Name":"anilstring"}
+2021-10-30 00:21:23.0483 INFO Artist request:{"ArtistId":1,"Name":"anilstring"}
+2021-10-30 00:33:03.0432 INFO List of Genre:[{"GenreId":1,"Name":"POP"},{"GenreId":2,"Name":"Disco"}]
+2021-10-30 00:33:20.0800 INFO Genre request:2
+2021-10-30 00:33:21.4897 INFO Genre response:{"GenreId":0,"Name":null}
+2021-10-30 00:33:34.7013 INFO Genre request:1
+2021-10-30 00:33:35.0629 INFO Genre response:{"GenreId":0,"Name":null}
+2021-10-30 00:34:23.0412 INFO Genre request:1
+2021-10-30 00:35:10.2140 INFO Genre response:{"GenreId":0,"Name":null}
+2021-10-30 00:36:24.0758 INFO Genre request:1
+2021-10-30 00:36:24.1655 INFO Genre response:{"GenreId":1,"Name":"POP"}
+2021-10-30 00:36:44.0231 INFO BackstreetBoy request:{"GenreId":0,"Name":"string"}
+2021-10-30 00:37:12.1200 INFO Genre request:{"GenreId":3,"Name":"aastring"}
+2021-10-30 00:38:01.3987 INFO Genre request:3
+2021-10-30 00:48:19.5899 INFO List of Song:[{"SongId":0,"Name":"Nobody Else","Time":3.35,"Popularity":5,"Price":105.55,"GenreId":null,"ArtistId":"anilstring"},{"SongId":0,"Name":"Breathe","Time":5.55,"Popularity":3,"Price":155.55,"GenreId":null,"ArtistId":"Test"}]
+2021-10-30 00:48:39.4553 INFO Song request:1
+2021-10-30 00:48:42.5155 ERROR Error:AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> SongVM
+System.Object -> TestApplication.ViewModel.SongVM
+   at lambda_method463(Closure , Object , SongVM , ResolutionContext )
+   at TestApplication.Models.SongRepository.GetSong(Int32 Id) in C:\Users\win-10\source\repos\TestApplication\TestApplication\Models\SongRepository.cs:line 52
+   at TestApplication.Controllers.SongsController.GetSong(Int32 id) in C:\Users\win-10\source\repos\TestApplication\TestApplication\Controllers\SongsController.cs:line 50
+2021-10-30 00:49:16.7860 INFO Song request:1
+2021-10-30 00:49:59.4810 ERROR Error:AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> SongVM
+System.Object -> TestApplication.ViewModel.SongVM
+   at lambda_method463(Closure , Object , SongVM , ResolutionContext )
+   at TestApplication.Models.SongRepository.GetSong(Int32 Id) in C:\Users\win-10\source\repos\TestApplication\TestApplication\Models\SongRepository.cs:line 52
+   at TestApplication.Controllers.SongsController.GetSong(Int32 id) in C:\Users\win-10\source\repos\TestApplication\TestApplication\Controllers\SongsController.cs:line 50
+2021-10-30 00:50:17.6545 INFO Song request:1
+2021-10-30 00:55:34.1240 INFO List of Song:[{"SongId":0,"Name":"Nobody Else","Time":3.35,"Popularity":5,"Price":105.55,"GenreId":null,"ArtistId":"anilstring"},{"SongId":0,"Name":"Breathe","Time":5.55,"Popularity":3,"Price":155.55,"GenreId":null,"ArtistId":"Test"}]
+2021-10-30 00:58:23.2422 INFO List of Song:[{"SongId":0,"Name":"Nobody Else","Time":3.35,"Popularity":5,"Price":105.55,"GenreId":null,"ArtistId":"anilstring"},{"SongId":0,"Name":"Breathe","Time":5.55,"Popularity":3,"Price":155.55,"GenreId":null,"ArtistId":"Test"}]
+2021-10-30 00:58:30.7691 INFO List of Song:[{"SongId":0,"Name":"Nobody Else","Time":3.35,"Popularity":5,"Price":105.55,"GenreId":null,"ArtistId":"anilstring"},{"SongId":0,"Name":"Breathe","Time":5.55,"Popularity":3,"Price":155.55,"GenreId":null,"ArtistId":"Test"}]
+2021-10-30 01:00:09.1869 INFO List of Song:[{"SongId":1,"Name":"Nobody Else","Time":3.35,"Popularity":5,"Price":105.55,"GenreId":"POP","ArtistId":"anilstring"},{"SongId":2,"Name":"Breathe","Time":5.55,"Popularity":3,"Price":155.55,"GenreId":"Disco","ArtistId":"Test"}]
+2021-10-30 01:00:32.3635 INFO Song request:1
+2021-10-30 01:01:00.3564 INFO Song response:{"SongId":1,"Name":"Nobody Else","Time":3.35,"Popularity":5,"Price":105.55,"GenreId":"1","ArtistId":"1"}
+2021-10-30 01:01:59.5254 INFO Song request:{"SongId":0,"Name":"string","Time":5.55,"Popularity":6,"Price":55.4,"GenreId":"1","ArtistId":"1"}
+2021-10-30 01:02:57.8266 INFO Song request:{"SongId":3,"Name":"teststring","Time":10.0,"Popularity":10,"Price":10.0,"GenreId":"2","ArtistId":"2"}
+2021-10-30 01:03:19.2378 INFO Song request:3
+2021-10-30 10:50:27.1616 INFO List of Artist:[{"ArtistId":1,"Name":"anilstring"},{"ArtistId":2,"Name":"Test"},{"ArtistId":3,"Name":"string"},{"ArtistId":4,"Name":"Artist3"},{"ArtistId":5,"Name":"Artist6"}]
+2021-10-30 10:52:01.8952 INFO List of Song:[{"SongId":1,"Name":"Nobody Else","Time":3.35,"Popularity":5,"Price":105.55,"GenreId":"POP","ArtistId":"anilstring"},{"SongId":2,"Name":"Breathe","Time":5.55,"Popularity":3,"Price":155.55,"GenreId":"Disco","ArtistId":"Test"}]
+2021-10-30 14:35:55.2972 INFO List of Artist:[{"ArtistId":1,"Name":"anilstring"},{"ArtistId":2,"Name":"Test"},{"ArtistId":3,"Name":"string"},{"ArtistId":4,"Name":"Artist3"},{"ArtistId":5,"Name":"Artist6"}]
+2021-10-30 15:08:50.2912 INFO List of Artist:[{"ArtistId":1,"Name":"anilstring"},{"ArtistId":2,"Name":"Test"},{"ArtistId":3,"Name":"string"},{"ArtistId":4,"Name":"Artist3"},{"ArtistId":5,"Name":"Artist6"}]
+2021-10-30 15:08:50.2912 INFO List of Artist:[{"ArtistId":1,"Name":"anilstring"},{"ArtistId":2,"Name":"Test"},{"ArtistId":3,"Name":"string"},{"ArtistId":4,"Name":"Artist3"},{"ArtistId":5,"Name":"Artist6"}]
